@@ -303,13 +303,11 @@ header {
 .form-field {
   margin-bottom: 28px;
   position: relative;
-  
 }
 
 .form-textarea {
   margin-bottom: 20px;
   position: relative;
- 
 }
 
 .form-input {
@@ -330,8 +328,7 @@ header {
 
   cursor: pointer;
 
-  transition: border-color 250ms var(--cubic-bezier),
-              fill 250ms var(--cubic-bezier);
+  transition: border-color 250ms var(--cubic-bezier), fill 250ms var(--cubic-bezier);
 }
 
 .icon-form {
@@ -341,7 +338,6 @@ header {
   left: 12px;
   transform: translateY(-50%);
   transition: fill 250ms var(--cubic-bezier);
-  
 
   /* outline: 1px solid red; */
 }
@@ -408,7 +404,7 @@ header {
 
 .form-checkbox {
   position: relative;
-  
+
   width: 425px;
   height: 24px;
   display: flex;
@@ -431,10 +427,9 @@ header {
   opacity: 0;
   position: absolute;
   z-index: -1;
-  
 }
 
-.custom-checkbox+label::before {
+.custom-checkbox + label::before {
   content: '';
   position: absolute;
   left: 0;
@@ -454,29 +449,24 @@ header {
   background-size: contain;
   cursor: pointer;
 
-  transition: border-color 250ms var(--cubic-bezier),
-              background-color 250ms var(--cubic-bezier);
+  transition: border-color 250ms var(--cubic-bezier), background-color 250ms var(--cubic-bezier);
 }
 
-.custom-checkbox:checked+label::before {
-  border-color: #2196F3;
-  background-color: #2196F3;
-  background-image: url(../images/icon-check.svg);
-  
+.custom-checkbox:checked + label::before {
+  border-color: #2196f3;
+  background-color: #2196f3;
+  background-image: url(../images/icons-web.svg#icon-check);
 }
 
 .aferta {
   text-decoration: underline solid 1px;
   text-decoration-skip-ink: none;
 
-  
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: #2196f3;
 }
-
-
 
 .btn-submit {
   width: 200px;
@@ -501,9 +491,8 @@ header {
 
 .btn-submit:hover,
 .btn-submit:focus {
-background-color: #188CE8;
+  background-color: #188ce8;
 }
-
 
 .close-button {
   position: absolute;
@@ -517,12 +506,11 @@ background-color: #188CE8;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 100%;
   cursor: pointer;
-
 }
 
-.close-button:hover .icon-close, 
-.close-button:focus .icon-close { 
-  fill: #2196F3;
+.close-button:hover .icon-close,
+.close-button:focus .icon-close {
+  fill: #2196f3;
 }
 
 .icon-close {
@@ -535,7 +523,6 @@ background-color: #188CE8;
   fill: currentColor;
   transition: fill 250ms var(--cubic-bezier);
 }
-
 
 .main-button:hover,
 .main-button:focus,
@@ -1002,11 +989,7 @@ background-color: #188CE8;
   width: 570px;
   height: 86px;
   margin-left: 93px;
-
- 
 }
-
-
 
 .input-join {
   width: 358px;
@@ -1026,7 +1009,6 @@ background-color: #188CE8;
 }
 
 .input-join::placeholder {
-  
   color: rgba(255, 255, 255, 0.6);
 
   font-size: 16px;
@@ -1045,7 +1027,7 @@ background-color: #188CE8;
   width: 200px;
   height: 50px;
 
-  background-color: #2196F3;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -1065,12 +1047,9 @@ background-color: #188CE8;
 
 .join-btn:hover,
 .join-btn:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
-
 .join-btn-text {
-  
   margin-right: 10px;
-
 }
